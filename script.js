@@ -27,7 +27,7 @@ let error = document.getElementById("error-msg");
 
 // Function to call the Bored API and display the activity its category
 const generate_activity = (category) => {
-    let url = `http://www.boredapi.com/api/activity?type=${category}`;
+    let url = `https://www.boredapi.com/api/activity?type=${category}`;
     fetch(url).then(response => {
         return response.json();
         })
