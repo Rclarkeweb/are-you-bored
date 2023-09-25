@@ -9,13 +9,18 @@ an activity from any category.
 - The option to filter the activities shown by category.
 - Error input if no category is selected.
 
+  **UPDATED 25/09/2023**
+
+- Updated the UI and styling.
+- Added options to change the color theme using jQuery.
+
 ## Tech used
 
-It was created using HTML5, CSS3 and JavaScript.
+It was created using HTML5, CSS3 jQuery and JavaScript.
 
 **Language Icons**
 
-[![My Skills](https://skillicons.dev/icons?i=html,css,js,git&perline=9)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=html,css,jquery,js,git&perline=9)](https://skillicons.dev)
 
 **Tools used**
 
@@ -24,3 +29,13 @@ It was created using HTML5, CSS3 and JavaScript.
 ## View it live
 
 You can view the project and try it out [here]().
+
+## Screenshot of the project
+
+**UPDATED**
+
+![image](https://github.com/Rclarkeweb/are-you-bored/assets/108008511/739aab63-6ce3-41aa-a793-e1bad82205ca)
+
+**OLD**
+
+![image](https://github.com/Rclarkeweb/are-you-bored/assets/108008511/547f3663-f973-4521-a024-0ab6b5e3cb21)

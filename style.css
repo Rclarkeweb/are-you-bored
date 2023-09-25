@@ -1,51 +1,67 @@
 /* containers */
 
 * {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: #000;
 }
 
 body {
-    background-color: #f9effa;
-    accent-color: #0a8754;
+    background-color: #f8d490;
+    accent-color: #000;
 }
 
 .container {
     position: relative;
     margin-top: 35px;
+    margin-bottom: 50px;
     text-align: center;
 }
 
 .display_categories {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: auto;
     padding: 10px;
     text-align: center;
-    background-color: #ffffffbb;
     border-radius: 15px;
+    width: 80%;
+    background-color: #eeeeeeb0;
+    border-radius: 15px;
+    border: 2px solid #000;
 }
 
 #display_activity {
     margin: auto;
+    margin-top: 30px;
     width: 80%;
-    height: 300px;
+    height: auto;
+    /* height: 325px; */
+    background-color: #eeeeeeb0;
+    border-radius: 15px;
+    border: 2px solid #000;
 }
 
+#change-theme {
+    background-color: #eeeeeeb0;
+    border-radius: 15px;
+    border: 2px solid #000;
+    display: inline-block;
+    margin: 20px;
+}
 
 
 /* font and text */
 
 p {
-    color: #5b5750;
+    color: #000;
     text-align: center;
 }
 
-h1 {
+#heading {
     font-size: 3em;
-    color: #662C91;
     text-align: center;
+    font-family: 'Martian Mono', monospace;
 }
 
 #info {
@@ -53,6 +69,7 @@ h1 {
     padding: 20px;
     margin: 0 auto;
     font-size: 15px;
+    color: #000;
 }
 
 #bold-info {
@@ -68,7 +85,7 @@ h1 {
 #activity {
     margin-top: 22px;
     font-size: 40px;
-    color: #662C91 !important;
+    margin-bottom: 22px;
 }
 
 #error-msg {
@@ -85,21 +102,21 @@ h1 {
 }
 
 button {
-    border: none;
+    border: 2px solid #000;
     border-radius: 15px;
     padding: 13px;
-    color: #fff;
+    color: #2e2e2d;
     margin: 10px;
     font-size: 16px;
     cursor: pointer;
 }
 
 #random {
-    background-color: #662C91;
+    background-color: #f8d490;
 }
 
 #chosen_category {
-    background-color: #0a8754;
+    background-color: #fff;
 }
 
 .fa-solid {
@@ -119,10 +136,32 @@ label {
     margin-right: 18px;
     font-size: 17px;
     vertical-align: middle;
-    color: #5b5750;
+    color: #2e2e2d;
 }
 
 .radio_buttons {
     display: inline-block;
     margin: 8px;
+}
+
+/* Theme Buttons */
+
+#dark {
+    background-color: #2b2b2b;
+}
+
+#purple {
+    background-color: #e2b4de;
+}
+
+#orange {
+    background-color: #f8d490;
+}
+
+#blue {
+    background-color: #adcee9;
+}
+
+#green {
+    background-color: #bdd396;
 }

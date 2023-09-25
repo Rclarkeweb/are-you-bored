@@ -86,6 +86,25 @@ const pick_random_activity = () => {
 };
 
 
+// Change color theme when button is clicked using jQuery
+
+$('.theme').on('click',function(){
+    let chosen_theme = $(this).attr('id');
+    let random_btn_color = $( this ).css("background-color");
+    if (chosen_theme == 'dark') {
+        $('body').attr('id', chosen_theme);
+        $("#heading, #bold-info, #info, .fa-dice, #random").css('color', 'white');
+        $('#activity').css('color', 'black');
+        $('#category').css('color', 'black');
+        $('#random').css('background-color', random_btn_color);
+    } else {
+        $('body').attr('id', chosen_theme);
+        $("#heading, #bold-info, #info, .fa-dice, #random").css('color', 'black');
+        $('#random').css('background-color', random_btn_color);
+    };
+});
+
+
 // Event Listeners on buttons
 
 // Add event listener to random activity button
@@ -96,5 +115,3 @@ chosen_category_btn.addEventListener("click", display_chosen_category);
 
 // Add event listener to 'go' button to check for error
 chosen_category_btn.addEventListener("click", error_message);
-
-
