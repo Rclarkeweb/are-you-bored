@@ -1,8 +1,8 @@
 # Activity generator for bored people
 
 This web app uses the [Bored API](https://www.boredapi.com/).  
-The user can either select a category, from 9 different categories, to see a random related generated activity or click the the random button to see
-an activity from any category.
+The user can either select a category, from 9 different categories, to see a random related generated activity or click the the random button to see an activity from any category.
+It also features the options to change the color theme.
 
 ## Features
 
@@ -39,4 +39,3 @@ You can view the project and try it out [here](https://rclarkeweb.github.io/are-
 **OLD**
 
 ![image](https://github.com/Rclarkeweb/are-you-bored/assets/108008511/547f3663-f973-4521-a024-0ab6b5e3cb21)
-
