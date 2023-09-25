@@ -28,7 +28,7 @@ It was created using HTML5, CSS3 jQuery and JavaScript.
 
 ## View it live
 
-You can view the project and try it out [here]().
+You can view the project and try it out [here](https://rclarkeweb.github.io/are-you-bored/).
 
 ## Screenshot of the project
 
@@ -39,3 +39,4 @@ You can view the project and try it out [here]().
 **OLD**
 
 ![image](https://github.com/Rclarkeweb/are-you-bored/assets/108008511/547f3663-f973-4521-a024-0ab6b5e3cb21)
+
