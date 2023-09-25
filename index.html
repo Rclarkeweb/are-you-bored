@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Martian+Mono:wght@400;700&family=Poppins:wght@400;500;600;700;800&display=swap"
         rel="stylesheet">
     
 
@@ -22,9 +22,20 @@
 </head>
 <body>
 
+    <div id="change-theme">
+        <p>Change Theme: </p>
+        <div class="theme-buttons">
+            <button id="dark" class="theme dark" name="theme" value="dark"></button>
+            <button id="purple" class="theme purple" name="theme" value="purple"></button>
+            <button id="orange" class="theme orange" name="theme" value="orange"></button>
+            <button id="green" class="theme green" name="theme" value="green"></button>
+            <button id="blue" class="theme blue" name="theme" value="blue"></button>
+        </div>
+    </div>
+
     <div class="container">
 
-        <h1>Are you Bored?</h1>
+        <h1 id="heading">Are you Bored?</h1>
 
         <p id="info"><span id="bold-info">Don't know what to do? Let the computer pick an activity for you!</span>
             <br />
@@ -96,6 +107,9 @@
 
     </div>
     
+    <!-- jQuery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
 
     <!-- Link to JS file -->
     <script src="script.js"></script>
